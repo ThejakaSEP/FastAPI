@@ -1,0 +1,3 @@
+gcloud builds submit --tag gcr.io/dashboard-dash-371321/Dashboard-Dash  --project=dashboard-dash-371321 ./DashTestingProject
+
+gcloud run deploy --image gcr.io/dashboard-dash-371321/Dashboard-Dash --platform managed  --project=dashboard-dash-371321 --allow-unauthenticated
